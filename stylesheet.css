@@ -38,7 +38,7 @@ img{
   
 
   .tab button {
-    background-color: inherit;
+    background-color: black;
     float: left;
     border: none;
     outline: none;
@@ -64,3 +64,8 @@ img{
     border: 1px solid #ccc;
     border-top: none;
   }
+
+
+.footer-content{
+    ;
+}
