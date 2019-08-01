@@ -43,13 +43,13 @@ img{
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 25px 24px;
     transition: 0.3s;
   }
   
   
   .tab button:hover {
-    background-color: #ddd;
+    background-color: #ff0000;
   }
   
 
@@ -66,6 +66,18 @@ img{
   }
 
 
-.footer-content{
-    ;
+.footer-content {
+    margin-top: 100px;
+    margin-left: 400px;
+    color: yellow;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.footer {
+    margin-left: 700px;
+    color: yellow;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 20px;
+    background-color: green;
 }
