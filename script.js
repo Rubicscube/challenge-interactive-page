@@ -18,3 +18,32 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
   }
 
+  // send button
+
+  const sendButton = document.querySelector('.send');
+  const inputFirstName = document.querySelector('.firstName').value;
+  console.log(inputFirstName);
+  const inputLastName = document.querySelector('.lastName').value;
+  console.log(inputLastName);
+  const inputEmail = document.querySelector('.email').value;
+  console.log(inputEmail);
+
+  function disabled(e) {
+
+    console.log(e.target.value);
+
+    if (inputFirstName !== '' && inputLastName !== '' && inputEmail !== '') {
+        sendButton.disabled = true;
+        alert("hello");
+      } else {
+        sendButton.disabled = false;
+        alert('nope');
+      }
+  }
+
+  
+
+
+  
+  
+
