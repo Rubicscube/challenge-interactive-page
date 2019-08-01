@@ -1,5 +1,3 @@
-
-
 // tabs
 
 function openCity(evt, cityName) {
